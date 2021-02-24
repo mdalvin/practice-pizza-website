@@ -54,7 +54,7 @@ export const SidebarLink = styled(Link)`
   text-decoration: none;
   list-style: none;
   transition: 0.2s ease-in-out;
-  color: #000;
+  color: #222222;
   cursor: pointer;
 
   &:hover {
@@ -76,6 +76,7 @@ export const SidebarRoute = styled(Link)`
   padding: 16px 64px;
   color: #fff;
   font-size: 0.8rem;
+  font-weight: bold;
   outline: none;
   border: none;
   border-radius: 5px;

@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const ProductContainer = styled.div`
     width: 100%;
     min-height: 100vh;
-    padding: 5rem calc((100vw - 1300px) / 2);
+    padding: 3rem calc((100vw - 1300px) / 2);
     background: #150f0f;
     color: #fff;
 `;
@@ -27,6 +27,11 @@ export const ProductImg = styled.img`
     min-width: 300px;
     max-width: 100%;
     box-shadow: 8px 8px #fdc500;
+
+    @media screen and (max-width: 480px) {
+        height: 150px;
+        min-width: 50%;
+    }
 `;
 
 export const ProductHeading = styled.h1`

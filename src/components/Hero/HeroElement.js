@@ -12,7 +12,7 @@ export const HeroContainer = styled.div`
 export const HeroContent = styled.div`
     height: calc(100vh - 80px);
     max-height: 100%;
-    width: 100vw;
+    width: 100%;
     padding: 0rem calc((100vw - 1300px) /2);
 `;
 
@@ -48,12 +48,13 @@ export const HeroP = styled.div`
 `;
 
 export const HeroBtn = styled.button`
-    font-size: 1.4rem;
-    padding: 1rem 4rem;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.5rem 0.5rem;
     border: none;
     border-radius: 5px;
     background: #e31837;
-    width: 300px;
+    width: 150px;
     color: #fff;
     transition: 0.2s ease-out;
 
